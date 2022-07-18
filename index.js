@@ -71,7 +71,7 @@ function getContent() {
             },
         ])
         .then((answers) => {
-            console.log(answers);
+            console.log(answers); // displays answers to user
             fs.writeFile('README.md', createWrite(answers), (err) => err ? console.error(err) : console.log('Success!')); // writes data to README.md file
     });
 
