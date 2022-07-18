@@ -14,9 +14,7 @@ This licence is not covered under a licence.
 
 [Usage](#Usage) 
 
-[Contributing](#Contributing) 
-
-[Tests](#Tests) 
+[Contributing](#Contributing)  
 
 [Questions](#Questions) 
 
