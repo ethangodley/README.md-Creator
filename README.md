@@ -21,13 +21,13 @@ This licence is not covered under a licence.
 ## Description
 The purpose of this project is to create a README.md file from the command line to allow developers to quickly create a README file
 for each project they complete. This is designed to save the user time by allowing user to type in answers to questions without worrying about formatting
-and without thinking what needs to be included in the README, as the program prompts the user for each required field. 
+and without thinking what needs to be included in the README, as the program prompts the user for each required field.
 
 ## Installation
 To correctly install this project git clone the repository to your local computer and run 'npm i' from the command line to install dependancies.
 
 ## Usage
-To use this project run node index.js in the relevant directory and follow the prompts of your program. Once all questions are answered a README.md file will be created in the current directory. WARNING: This will overwrite any existing file named README.md in the same directory.
+To use this project run 'node index.js' in the relevant directory and follow the prompts of the program. Once all questions are answered a README.md file will be created in the current directory. WARNING: This will overwrite any existing file named README.md in the same directory.
 [Walkthrough Video](https://drive.google.com/file/d/1qz26ALrhd1ntU9TbAWnAR7ZVtQoJIo5g/view?usp=sharing)
 
 ## Contributing 
