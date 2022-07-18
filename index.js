@@ -77,3 +77,40 @@ function getContent() {
 
 }
 
+// function creates a variable write which contains all content of readme.md file. The function imports user input data and exports the write variable.
+function createWrite ({title, licence, description, installation, usage, contributing, tests, github, email}) {
+
+    // creates url for importing badge image for licence type
+    const badgeUrl = licence.replaceAll(" ", "%20");
+
+    // creates String variable write that contains README.md template and user input for custom README.md file
+    const write = 
+`# ${title} \n
+## Licencing
+![licence badge](https://img.shields.io/badge/licence-${badgeUrl}-brightgreen) \n 
+This licence is covered under the licence of ${licence}. \n
+## Table Of Contents
+[licencing](#licencing) \n
+[description](#description) \n
+[Installation](#installation) \n
+[Usage](#usage) \n
+[Contributing](#contributing) \n
+[Tests](#tests) \n
+[Questions](#questions) \n
+## Description
+The purpose of this project is ${description} \n
+## Installation
+To correctly install this project ${installation} \n
+## Usage
+To use this project ${usage} \n
+## Contributing 
+To contribute to this project ${contributing} \n
+## Tests
+To test the project ${tests} \n 
+## Questions 
+Please find the link to my github profile below, along with my email address should a user or developer have any further questions \n
+https://github.com/${github} ${email}`; 
+    return write; // returns string variable write for
+}
+getContent(); // calls getContent function
+
