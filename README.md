@@ -28,7 +28,7 @@ To correctly install this project git clone the repository to your local compute
 
 ## Usage
 To use this project run node index.js in the relevant directory and follow the prompts of your program. Once all questions are answered a README.md file will be created in the current directory. WARNING: This will overwrite any existing file named README.md in the same directory.
-[Walkthrough Video](https://drive.google.com/file/d/1qz26ALrhd1ntU9TbAWnAR7ZVtQoJIo5g/view)
+[Walkthrough Video](https://drive.google.com/file/d/1qz26ALrhd1ntU9TbAWnAR7ZVtQoJIo5g/view?usp=sharing)
 
 ## Contributing 
 To contribute to this project make desired changes and create a detailed pull request in github for head developer to approve. 
